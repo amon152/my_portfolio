@@ -1,0 +1,216 @@
+
+/* *{
+    background-color: #19747a;
+} */
+body{
+    background-color: #19747a;
+}
+.logo{
+    color: #04484d;
+    cursor: pointer;
+}
+.logo:hover{
+    color: #0c2d88;
+}
+li, a, button{
+    font-family: "Monstserrat", sans-serif;
+    font-size: 16px;
+    color: #19747a;
+    text-decoration: none;
+}
+li, a, button:hover{
+    color: #053946;
+}
+header{
+    background-color: #19747a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.link{
+    list-style: none;
+}
+.link li{
+    
+    display: inline-block;
+    padding: 0px 20px;
+}
+.link li a{
+    font-size: 20px;
+    color: #04484d;;
+    transition: all 0.3s ease 0s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link li a:hover{
+    color: #052f3a;
+
+}
+/* button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+} */
+/* header */
+
+
+.head{
+    height: auto;
+    background-color: blue;
+    cursor: pointer;
+    margin-top: 6px;
+    font-family: CircularStd-Book,Arial,Helvetica,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: #212529;
+}
+
+/* the container */
+.container-home{
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+    background-color: #19747a;
+
+}
+/* start of card 1 */
+.homecard1{
+    width:500px;
+	position: relative;
+	height: 400px;
+	background: #19747a;
+	border-radius: 15px;
+	margin:30px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+
+}
+.intro{
+    font-family: CircularStd-Bold,Arial,Helvetica,sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center !important;
+    box-sizing: border-box;
+    color: #e6e6e6;
+}
+.head1{
+    -webkit-text-fill-color: solid;
+    color: #12347c;
+    -webkit-animation: index-module--fill--3uxgz 5s cubic-bezier(.5,0,.1,1) infinite;
+    font-size: 50px;
+    background-clip: text;
+    background-image: linear-gradient(110.78deg,#1a4bff -1.13%,#ff1e56 15.22%,#9b8fff 32.09%,#ff1e56 48.96%,#ff1e56 67.94%,#1a4bff 85.34%,#75c1ff 99.57%);
+    background-size: 400%;
+    font-family: CircularStd-Bold,Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+    text-align: center !important;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.5;
+    animation: index-module--fill--3uxgz 5s cubic-bezier(.5,0,.1,1) infinite;
+}
+
+.summary{
+    font-family: CircularStd-Bold,Arial,Helvetica,sans-serif;
+    padding: 5px 0;
+    color: #e6e6e6;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    box-sizing: border-box;
+    border-style: none;
+    text-align: center !important;
+    font-family: CircularStd-Book,Arial,Helvetica,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.mysummary{
+    font-size: 18px;
+    padding-top: 10px;
+    color: #e6e6e6;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    box-sizing: border-box;
+    text-align: center !important;
+    font-family: CircularStd-Book,Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+
+}
+.resumebutton{
+    transition: opacity 400ms ease 0s, transform 400ms ease 0s;
+    transform: none;
+    opacity: 1;
+    box-sizing: border-box;
+    text-align: center !important;
+    font-family: CircularStd-Book,Arial,Helvetica,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 15px;
+    width: 200px;
+    height: 45px;
+    margin-left: 25%;
+    background-color: #e04269;
+
+
+
+}
+.resumebutton:hover{
+    background-color: #62c0c7;
+}
+.a{
+    text-decoration: none;
+}
+
+
+
+/* Start of card 2 */
+.homecard2{
+    width:308px;
+	position: relative;
+	height: 400px;
+	background: #19747a;
+	border-radius: 15px;
+	margin:30px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	transition:0.3s ease-in-out;
+	margin-top: 5%;
+
+}
+.homepagei{
+    
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        opacity: 1;
+        transition: opacity 500ms ease 0s;
+      
+}
+
+
+/* Start of about section */
+

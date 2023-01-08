@@ -1,0 +1,186 @@
+
+*{
+    font-size: 18px;
+    background-color: #19747a;
+   }
+   .container{
+       position: absolute;
+       margin: 100px;
+       margin-left: 12%;
+   }
+   .header2{
+      text-align: center;
+      font-size: 24px;
+   }
+   .container{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .card{
+     
+       width: 300px;
+       height: 400px;
+       margin: 12px;
+   }
+   .card-image{
+      
+       height: 250px;
+       margin-bottom:15;
+   }
+   h2{
+    
+       text-align: center;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
+   
+   p{
+     font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      position: relative;
+      width: 17em; 
+      bottom: -20%;
+       /* position:relative;
+       bottom: 0;
+       text-align: center;
+        */
+   
+   }
+   .p1{
+      margin-top: 15%;
+   }
+   .develop{
+      align-items: center;
+      margin-top: -14%;
+   }
+   .p3{
+      margin-top: 5%;
+   
+   }
+   
+   .dots{
+       margin-top: 30%;
+       margin-left: 45%;
+   }
+   
+   .dots {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      color: #d53737;
+      box-shadow: 33.4px -33.4px 0 0px, 66.9px -33.4px 0 0px, 100.3px -33.4px 0 0px,
+             33.4px 0     0 8.8px, 66.9px 0     0 8.8px, 100.3px 0     0 8.8px,
+             33.4px 33.4px  0 0px, 66.9px 33.4px  0 0px, 100.3px 33.4px  0 0px;
+      transform: translateX(-66.9px);
+      animation: dots-i2eob1hg 2.8s infinite linear;
+   }
+   
+   @keyframes dots-i2eob1hg {
+      12.5% {
+         box-shadow: 33.4px -33.4px 0 0px, 66.9px -33.4px 0 0px, 100.3px -33.4px 0 8.8px,
+             33.4px 0     0 8.8px, 66.9px 0     0 0px, 100.3px 0     0 8.8px,
+             33.4px 33.4px  0 0px, 66.9px 33.4px  0 0px, 100.3px 33.4px  0 0px;
+      }
+   
+      25% {
+         box-shadow: 33.4px -33.4px 0 8.8px, 66.9px -33.4px 0 0px, 100.3px -33.4px 0 8.8px,
+             33.4px 0     0 0px, 66.9px 0     0 0px, 100.3px 0     0 0px,
+             33.4px 33.4px  0 0px, 66.9px 33.4px  0 8.8px, 100.3px 33.4px  0 0px;
+      }
+   
+      50% {
+         box-shadow: 33.4px -33.4px 0 8.8px, 66.9px -33.4px 0 8.8px, 100.3px -33.4px 0 0px,
+             33.4px 0     0 0px, 66.9px 0     0 0px, 100.3px 0     0 0px,
+             33.4px 33.4px  0 0px, 66.9px 33.4px  0 0px, 100.3px 33.4px  0 8.8px;
+      }
+   
+      62.5% {
+         box-shadow: 33.4px -33.4px 0 0px, 66.9px -33.4px 0 0px, 100.3px -33.4px 0 0px,
+             33.4px 0     0 8.8px, 66.9px 0     0 0px, 100.3px 0     0 0px,
+             33.4px 33.4px  0 0px, 66.9px 33.4px  0 8.8px, 100.3px 33.4px  0 8.8px;
+      }
+   
+      75% {
+         box-shadow: 33.4px -33.4px 0 0px, 66.9px -33.4px 0 8.8px, 100.3px -33.4px 0 0px,
+             33.4px 0     0 0px, 66.9px 0     0 0px, 100.3px 0     0 8.8px,
+             33.4px 33.4px  0 0px, 66.9px 33.4px  0 0px, 100.3px 33.4px  0 8.8px;
+      }
+   
+      87.5% {
+         box-shadow: 33.4px -33.4px 0 0px, 66.9px -33.4px 0 8.8px, 100.3px -33.4px 0 0px,
+             33.4px 0     0 0px, 66.9px 0     0 8.8px, 100.3px 0     0 0px,
+             33.4px 33.4px  0 8.8px, 66.9px 33.4px  0 0px, 100.3px 33.4px  0 0px;
+      }
+   }
+   
+   .pulse{
+       margin-top: 30%;
+       margin-left: 40%;
+   
+   }
+   .pulse {
+      width: 35.2px;
+      height: 35.2px;
+      border-radius: 50%;
+      background: #6c3e3e;
+      box-shadow: 0 0 0 0 rgba(108,62,62,0.5);
+      animation: pulse-kefe91hg 2.0999999999999996s infinite linear;
+      position: relative;
+   }
+   
+   .pulse:before,
+   .pulse:after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      box-shadow: 0 0 0 0 rgba(108,62,62,0.5);
+      animation: inherit;
+      animation-delay: -0.7s;
+   }
+   
+   .pulse:after {
+      animation-delay: -1.4s;
+   }
+   
+   @keyframes pulse-kefe91hg {
+      100% {
+         box-shadow: 0 0 0 70.4px #0000;
+      }
+   }
+   .blob{
+       margin-top: 16%;
+       margin-left: 30%;
+   }
+   
+   
+   
+   .blob {
+      width: 112px;
+      height: 112px;
+      display: grid;
+      background: #fff;
+      filter: blur(4.5px) contrast(10);
+      padding: 11.2px;
+      mix-blend-mode: darken;
+   }
+   
+   .blob:before {
+      content: "";
+      margin: auto;
+      width: 33.6px;
+      height: 33.6px;
+      border-radius: 50%;
+      color: #c44d98;
+      background: currentColor;
+      box-shadow: -33.6px 0,33.6px 0,0 33.6px, 0 -33.6px;
+      animation: blob-031hhgmd 1.4s infinite alternate;
+   }
+   
+   @keyframes blob-031hhgmd {
+      90%, 100% {
+         box-shadow: -11.2px 0,11.2px 0,0 11.2px, 0 -11.2px;
+         transform: rotate(180deg);
+      }
+   }
+   
+   
