@@ -115,7 +115,7 @@ button:hover{
     -webkit-animation: index-module--fill--3uxgz 5s cubic-bezier(.5,0,.1,1) infinite;
     font-size: 50px;
     background-clip: text;
-    background-image: linear-gradient(110.78deg,#1a4bff -1.13%,#ff1e56 15.22%,#9b8fff 32.09%,#ff1e56 48.96%,#ff1e56 67.94%,#1a4bff 85.34%,#75c1ff 99.57%);
+    /* background-image: linear-gradient(110.78deg,#1a4bff -1.13%,#ff1e56 15.22%,#9b8fff 32.09%,#ff1e56 48.96%,#ff1e56 67.94%,#1a4bff 85.34%,#75c1ff 99.57%); */
     background-size: 400%;
     font-family: CircularStd-Bold,Arial,Helvetica,sans-serif;
     box-sizing: border-box;
